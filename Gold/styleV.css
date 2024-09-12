@@ -1,0 +1,50 @@
+/* Video Player Styles */
+video {
+    display: block;
+    margin: 20px auto;
+}
+
+/* Notification Styles */
+.notifications-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.alert {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.alert-svg {
+    margin-right: 10px;
+}
+
+.alert-prompt-wrap {
+    margin-left: 10px;
+}
+
+.text-sm {
+    font-size: 0.875rem;
+}
+
+.text-yellow-700 {
+    color: #b45309;
+}
+
+.alert-prompt-link {
+    color: #f59e0b;
+    text-decoration: underline;
+}
